@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\timluo\gitcode\stc89c52exp\exp3_Á÷Ë®µÆled\main.uvproj
+Project File Date:  12/12/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(10): error C141: syntax error near 'int'
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C141: syntax error near ')'
+MAIN.C(12): error C202: 'i': undefined identifier
+MAIN.C(12): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(10): error C141: syntax error near 'int'
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C141: syntax error near ')'
+main.c(12): warning C315: unknown #directive 'P2'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(10): error C141: syntax error near 'int'
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C202: 'i': undefined identifier
+MAIN.C(10): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=49
+creating hex file from "main"...
+"main" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(13): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=64
+creating hex file from "main"...
+"main" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): error C202: 'p2': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=67
+creating hex file from "main"...
+"main" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=68
+creating hex file from "main"...
+"main" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=65
+creating hex file from "main"...
+"main" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): error C141: syntax error near 'B'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): error C251: illegal octal digit
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): error C251: illegal octal digit
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(11): error C251: illegal octal digit
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=9.0 xdata=0 code=65
+creating hex file from "main"...
+"main" - 0 Error(s), 0 Warning(s).

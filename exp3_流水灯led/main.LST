@@ -1,0 +1,45 @@
+C51 COMPILER V9.01   MAIN                                                                  12/12/2020 18:47:27 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: d:\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <reg51.h>
+   2          
+   3          //P2是一个字节，八位0000 0000, 0代表灯亮，1代表灯灭
+   4          #define led P2;
+   5          
+   6          void delay(int i){
+   7   1              while(i--){};
+   8   1      }
+   9          void main(){
+  10   1              int i;
+  11   1      
+  12   1              while(1){
+  13   2                  // 同一时刻只有一个灯亮，即 11101111的形式  P2=0B11101111
+  14   2                      for(i=0;i<8;i++){
+  15   3                         delay(40000);
+  16   3                         P2=~(0x1<<i);
+  17   3      
+  18   3                      }
+  19   2      
+  20   2              }
+  21   1               
+  22   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     50    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
